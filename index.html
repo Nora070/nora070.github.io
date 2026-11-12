@@ -1,12 +1,76 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Alex Rivera | Portfolio</title>
+<!-- FONTS: pick fonts at fonts.google.com, paste the link here, then update --font-heading / --font-body in style.css -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;700&family=IBM+Plex+Sans:wght@400;600&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
 <body>
 
-<a href="Data_Sci_Project.html">Milestone 1 - Data Science Project</a>
-  <br>
-<a href="Kyle and Nora M2 (1).html">Milestone 2 - Data Science Project</a>
-  <br>
-<a href="final.html">Milestone 3 - Data Science Project</a>
+<nav>
+  <div class="wrap">
+    <a class="brand" href="index.html">Alex Rivera</a>
+    <ul>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="https://github.com/Nora070">GitHub</a></li>
+    </ul>
+  </div>
+</nav>
+
+<main class="wrap">
+
+  <header class="hero">
+    <!-- PHOTO: replace the line below with <img class="avatar" src="me.jpg" alt="Photo of Alex"> (put me.jpg next to this file) -->
+    <div class="avatar" aria-hidden="true">NH</div>
+    <div>
+      <h1>Hi, I’m Nora Humfeld.</h1>
+      <p>Computer science, Mathematics, and Spanish student at Loyola University New Orleans. I like building programs that involved applied math and data methods.</p>
+      <div class="links">
+        <a href="https://github.com/Nora070">GitHub</a>
+        <a href="https://www.linkedin.com/in/nora-humfeld">LinkedIn</a>
+        <a href="mailto:nehumfel@my.loyno.edu">Email</a>
+      </div>
+    </div>
+  </header>
+
+  <section id="projects">
+    <h2>Projects</h2>
+
+    <!-- PROJECT CARDS: copy one <article> block per project, then edit the title, tag, description, and link -->
+    <article class="project">
+      <h3><a href="Data_Sci_Project.html">Data Science Project M1</a><span class="tag">Python</span></h3>
+      <p>Milestone 1 in my Tulane Data Science course. Involves initial data exploration and model brainstorming.</p>
+      <p><a href="https://github.com/Nora070/Data-Science-Project-M1">View on GitHub</a></p>
+    </article>
+
+    <article class="project">
+      <h3><a href="Kyle and Nora M2 (1).html">Data Science Project M2</a><span class="tag">Python</span></h3>
+      <p>Milestone 2 in my Tulane Data Science course. Focuses on implementing and evaluating machine learning models.</p>
+      <p><a href="https://github.com/Nora070/Data-Science-Project-M2">View on GitHub</a></p>
+    </article>
+
+    <article class="project">
+      <h3><a href="final.html">Data Science Project M3</a><span class="tag">Python</span></h3>
+      <p>The cumulative Jupyter notebook that presents our data exploration, analysis, and regression building to analyze financial data and predicted stock return.</p>
+    </article>
+
+    <!-- END PROJECT CARDS -->
+  </section>
+
+  <section id="about">
+    <h2>About</h2>
+    <p>I am a computer science, mathematics, and Spanish student at Loyola University New Orleans. I have a strong interest in data science and machine learning, and I enjoy working on projects that involve applied mathematics and data analysis. I am currently seeking internships or full time job opportunities where I can apply my skills and gain practical experience in the field of data science and software development.</p>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">© 2026 Nora Humfeld</div>
+</footer>
 
 </body>
 </html>
