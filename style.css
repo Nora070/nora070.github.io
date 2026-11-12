@@ -1,7 +1,7 @@
 /* ===== CUSTOMIZE HERE: change these values to restyle every page ===== */
 :root{
   --accent:#1f6f8b;                 /* links, tags, buttons */
-  --bg:#f5f7f8;                     /* page background */
+  --bg:#f7cffa;                     /* page background */
   --surface:#ffffff;                /* code header, avatar text */
   --text:#1c2530;                   /* main text */
   --muted:#5d6b78;                  /* secondary text */
